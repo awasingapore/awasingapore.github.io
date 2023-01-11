@@ -403,30 +403,35 @@
                 <h4>Email:</h4>
                 <p>hello@animalwelfareacademy.com</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/f/xqkokjrv"
-            method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/f/xqkokjrv" method="post" style="width: 100%;background: #fff;" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <label style="width:100%">Your Name
+                    <input type="text" name="name" class="form-control" id="name" required>
+                  </label>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <label style="width:100%">Your Email
+                    <input type="email" class="form-control" name="email" id="email" required>
+                  </label>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <label style="width:100%">Subject
+                  <input type="text" class="form-control" name="subject" id="subject" required>
+                </label>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="form-group">
+                <label style="width:100%">Message
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </label>
+              </div>
+              <button class="text-center" type="submit">Send</button>
             </form>
           </div>
 
