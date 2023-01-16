@@ -995,6 +995,8 @@ section {
 
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
+  text-align: center;
+  min-height: 250px;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
