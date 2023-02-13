@@ -1121,20 +1121,22 @@ section {
   padding: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team .member {
   position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 5px;
-  background: #efb65f;
+  background: #fff;
   transition: 0.5s;
+  min-height: 370px;
 }
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
   border-radius: 50%;
 }
 
@@ -1154,7 +1156,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #555d46;
+  color: #37517e;
 }
 
 .team .member span {
@@ -1200,13 +1202,13 @@ section {
 }
 
 .team .member .social a i {
-  color: #555d46;
+  color: #37517e;
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #bf6632;
+  background: #47b2e4;
 }
 
 .team .member .social a:hover i {
@@ -1216,6 +1218,7 @@ section {
 .team .member .social a+a {
   margin-left: 8px;
 }
+
 
 /*--------------------------------------------------------------
 # Pricing
