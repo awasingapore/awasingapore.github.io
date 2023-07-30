@@ -1295,7 +1295,16 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width : 320px) and (max-width: 600px) {
+  .portfolio-details .portfolio-details-slider img {
+    width: 100%;
+  }
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
